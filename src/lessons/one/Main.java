@@ -7,8 +7,15 @@ public class Main {
         Cat cat = new Cat();
         cat.sleep();
 
-        String badcommit = "not very bad";
-        // Чо опять
+        Calc calc = new Calc();
+        calc.setA(12);
+        calc.setB(0);
+         System.out.println(calc.divide());
+
+
+
+
+        //String badcommit = "not very bad";
 
 
 
