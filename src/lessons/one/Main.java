@@ -4,14 +4,25 @@ import lessons.one.animals.Cat;
 
 public class Main {
     public static void main(String[] args) {
+
+      /*
         Cat cat = new Cat();
         cat.sleep();
 
         Calc calc = new Calc();
         calc.setA(12);
-        calc.setB(0);
-         System.out.println(calc.divide());
+        calc.setB(1);
+         System.out.println("результат: " + calc.divide());
+        */
+        //коты
 
+        int a = 5;
+        Cat cat = new Cat();
+        System.out.println(a);
+        System.out.println(cat.getAge());
+        action(a,cat);
+        System.out.println(a);
+        System.out.println(cat.getAge());
 
 
 
@@ -127,5 +138,11 @@ public class Main {
 
 
 
+    }
+
+    private static void action(int a, Cat cat){
+        a= a+10;
+        System.out.println(a);
+        cat.setAge(10);
     }
 }
